@@ -1,0 +1,226 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.head-contact {
+	    float: none;
+	    margin: 5px 0 6px 0;
+	    padding-left: 0;
+    }
+    .head-contact li {
+	    margin-right: 0;
+    }
+    .social-block {
+	    float: right;
+	    margin-top: 5px;
+	}
+	.hidden-sm {
+		display:none;
+	}
+	.hotel-title {
+    margin-right: 10px;
+   }
+   .services-block h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    }
+    .services-block .s-price {
+    font-size: 36px;
+    }
+    .sold {
+    bottom: 5px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.head-logo {
+    margin: 20px 0 0px 0;
+    text-align: center;
+   }
+   .head-logo img {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 30px;
+	}
+   .head-contact {
+	    float: left;
+    }
+   .head-wrap {
+    margin-top: 0;
+    float: none;
+    padding: 0 20px;
+	}
+	.wrap-plus {
+    bottom: 15px;
+    left: 15px;
+   }
+    .hotel-main {
+    padding: 0 20px;
+  }
+  .hotel-price {
+  	display: block;
+  }
+  .services-block {
+    padding: 0 20px;
+  }
+  .sold {
+    right: 25px;
+  }
+  .body-main {
+  	padding: 0 20px;
+  }
+  .main-footer .row {
+  	padding: 0 20px;
+  }
+  .main-title {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width : 575px) {
+	.head-contact li {
+    display: block;
+   }
+   .wrap-plus {
+    width: 160px;
+    height: 160px;
+   }
+   .plus {
+   	margin-top: 20px;
+   }
+   .plus h4 {
+    font-size: 16px;
+   }
+   .plus p {
+    margin-top: 10px;
+   }
+    .plus .key-tour {
+    width: 50%;
+   }
+   .hotel-star {
+   	margin-right: 0;
+   }
+   .h-rating {
+    padding-right: 71%;
+   }
+   .h-rating::before {
+    right: 0;
+    left: 110px;
+   }
+   .overall-r {
+    margin-top: 20px;
+    }
+    .services-block {
+	    padding: 0 20px;
+		}
+}
+@media only screen and (max-width : 480px) {
+	.hotel-main {
+    margin: 20px auto;
+  }
+  .hotel-title {
+    font-size: 26px;
+  }
+  .hotel-star {
+    font-size: 26px;
+  }
+  .services-block {
+    padding: 0 20px;
+  }
+  .services-block .s-price {
+    font-size: 32px;
+	}
+	.services-block h2 {
+    font-size: 20px;
+  }
+  .services-block img {
+  	height: 200px;
+  }
+  .sold {
+    right: 25px;
+  }
+  .main-title {
+    font-size: 36px;
+	}
+	.body-main strong {
+    font-size: 14px;
+    padding: 0 0px 30px 0;
+   }
+    .main-title {
+    font-size: 23px;
+    margin-top: 20px;
+	}
+	.body-main blockquote {
+    margin: 0 0 20px 0;
+  }
+  .table-wrap {
+    margin-bottom: 20px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 420px) {
+	.head-contact li p {
+    font-size: 26px;
+  }
+  .h-rating {
+    padding-right: 65%;
+	}
+  .overall-r {
+    margin-right: 6px;
+  }
+  .hotel-title {
+    font-size: 24px;
+  }
+  .hotel-star {
+    font-size: 18px;
+	}
+	.hotel-price {
+    font-size: 26px;
+  }
+  h2.elapsed-time {
+    font-size: 18px;
+	}
+}
+@media only screen and (max-width : 360px) {
+	.head-wrap {
+    padding: 0 10px;
+   }
+   .head-contact li p {
+    font-size: 24px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 990px) {
+		
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
